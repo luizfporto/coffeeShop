@@ -1,177 +1,238 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website Responsivo Cafeteria</title>
     <!-- --------- CSS ------------ -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- ----------- BOX ICONS -------------- -->
-    <link rel="stylesheet"
-     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
     <!-- NavBar -->
     <header>
-        <a href="#" class="logo">
-            <img src="img/logo.png" alt="logo">
-        </a>
-        <!-- Menu Icon -->
-        <i class="bx bx-menu" id="menu-icon"></i>
-        <!-- Links -->
-        <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Sobre nós</a></li>
-            <li><a href="#products">Produtos</a></li>
-            <li><a href="#customers">Clientes</a></li>
-        </ul>
-        <!-- Icon -->
-        <div class="header-icon">
-           <i class="bx bx-cart-alt"></i>
-           <i class="bx bx-search" id="search-icon"></i> 
-        </div>
-        <!-- Search box -->
-        <div class="search-box">
-            <input type="search" name="" id="" placeholder="Buscar...">
-        </div>
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+      <!-- Menu Icon -->
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <!-- Links -->
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre nós</a></li>
+        <li><a href="#products">Produtos</a></li>
+        <li><a href="#customers">Clientes</a></li>
+      </ul>
+      <!-- Icon -->
+      <div class="header-icon">
+        <i class="bx bx-cart-alt"></i>
+        <i class="bx bx-search" id="search-icon"></i>
+      </div>
+      <!-- Search box -->
+      <div class="search-box">
+        <input type="search" name="" id="" placeholder="Buscar..." />
+      </div>
     </header>
     <!-- Home -->
     <section class="home" id="home">
-        <div class="home-text">
-            <h1>Comece seu dia <br> com café</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi labore iure magni hic iste eligendi non culpa sequi mollitia ad iusto, corrupti nobis delectus molestias neque rerum explicabo natus. Explicabo!</p>
-            <a href="#" class="btn">Compre Agora</a>
-        </div>
-        <div class="home-img">
-            <img src="img/main.png" alt="">
-        </div>
+      <div class="home-text">
+        <h1>
+          Comece seu dia <br />
+          com café
+        </h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
+          labore iure magni hic iste eligendi non culpa sequi mollitia ad iusto,
+          corrupti nobis delectus molestias neque rerum explicabo natus.
+          Explicabo!
+        </p>
+        <a href="#" class="btn">Compre</a>
+      </div>
+      <div class="home-img">
+        <img src="img/main.png" alt="" />
+      </div>
     </section>
     <!-- About -->
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/about.jpg" alt="sobre nós">
-        </div>
-        <div class="about-text">
-            <h2>Nossa História</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia autem facere iste?</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia autem facere iste?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempora deserunt maiores repellendus ipsa.</p>
-            <a href="#" class="btn">Leia Mais</a>
-        </div>
-
+      <div class="about-img">
+        <img src="img/about.jpg" alt="sobre nós" />
+      </div>
+      <div class="about-text">
+        <h2>Nossa História</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia autem
+          facere iste?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia autem
+          facere iste?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempora
+          deserunt maiores repellendus ipsa.
+        </p>
+        <a href="#" class="btn">Leia Mais</a>
+      </div>
     </section>
     <!-- Products -->
     <section class="products" id="products">
-        <div class="heading">
-            <h2>Nossos produtos populares</h2>
+      <div class="heading">
+        <h2>Nossos produtos populares</h2>
+      </div>
+      <!-- Container -->
+      <div class="products-container">
+        <div class="box">
+          <img src="img/p1.png" alt="" />
+          <h3>Puro Americano</h3>
+          <div class="content">
+            <span>R$25</span>
+            <a href="#">Adicionar ao carrinho</a>
+          </div>
         </div>
-        <!-- Container -->
-        <div class="products-container">
-            <div class="box">
-               <img src="img/p1.png" alt=""> 
-               <h3>Puro Americano</h3>
-               <div class="content">
-                    <span>R$25</span>
-                    <a href="#">Adicionar ao carrinho</a>
-               </div>
-            </div>
-            <div class="box">
-                <img src="img/p2.png" alt=""> 
-                <h3>Puro Americano</h3>
-                <div class="content">
-                     <span>R$25</span>
-                     <a href="#">Adicionar ao carrinho</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="img/p3.png" alt=""> 
-                <h3>Puro Americano</h3>
-                <div class="content">
-                     <span>R$25</span>
-                     <a href="#">Adicionar ao carrinho</a>
-                </div>
-             </div>
-             <div class="box">
-                <img src="img/p4.png" alt=""> 
-                <h3>Puro Americano</h3>
-                <div class="content">
-                     <span>R$25</span>
-                     <a href="#">Adicionar ao carrinho</a>
-                </div>
-             </div>
-             <div class="box">
-                <img src="img/p5.png" alt=""> 
-                <h3>Puro Americano</h3>
-                <div class="content">
-                     <span>R$25</span>
-                     <a href="#">Adicionar ao carrinho</a>
-                </div>
-             </div>
-             <div class="box">
-                <img src="img/p6.png" alt=""> 
-                <h3>Puro Americano</h3>
-                <div class="content">
-                     <span>R$25</span>
-                     <a href="#">Adicionar ao carrinho</a>
-                </div>
-             </div>
+        <div class="box">
+          <img src="img/p2.png" alt="" />
+          <h3>Puro Americano</h3>
+          <div class="content">
+            <span>R$25</span>
+            <a href="#">Adicionar ao carrinho</a>
+          </div>
         </div>
+        <div class="box">
+          <img src="img/p3.png" alt="" />
+          <h3>Puro Americano</h3>
+          <div class="content">
+            <span>R$25</span>
+            <a href="#">Adicionar ao carrinho</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/p4.png" alt="" />
+          <h3>Puro Americano</h3>
+          <div class="content">
+            <span>R$25</span>
+            <a href="#">Adicionar ao carrinho</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/p5.png" alt="" />
+          <h3>Puro Americano</h3>
+          <div class="content">
+            <span>R$25</span>
+            <a href="#">Adicionar ao carrinho</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/p6.png" alt="" />
+          <h3>Puro Americano</h3>
+          <div class="content">
+            <span>R$25</span>
+            <a href="#">Adicionar ao carrinho</a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Customers -->
     <section class="customers" id="customers">
-        <div class="heading">
-            <h2>Nossos Clientes</h2>
+      <div class="heading">
+        <h2>Nossos Clientes</h2>
+      </div>
+      <!-- Container -->
+      <div class="customers-container">
+        <div class="box">
+          <div class="stars">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            eaque, consectetur quas quidem neque in.
+          </p>
+          <h2>Yasin Arafat</h2>
+          <img src="img/rev1.jpg" alt="" />
         </div>
-        <!-- Container -->
-        <div class="customers-container">
-            <div class="box">
-                <div class="stars">
-                    <i class="bx bx-star"></i>
-                    <i class="bx bx-star"></i>
-                    <i class="bx bx-star"></i>
-                    <i class="bx bx-star"></i>
-                    <i class="bx bxs-star-half"></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eaque, consectetur quas quidem neque in.</p>
-                <h2>Yasin Arafat</h2>
-                <img src="img/rev1.jpg" alt="">
-            </div>
-            <div class="box">
-                <div class="stars">
-                    <i class="bx bx-star"></i>
-                    <i class="bx bx-star"></i>
-                    <i class="bx bx-star"></i>
-                    <i class="bx bx-star"></i>
-                    <i class="bx bxs-star-half"></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eaque, consectetur quas quidem neque in.</p>
-                <h2>Yasin Arafat</h2>
-                <img src="img/rev2.jpg" alt="">
-            </div>
-            <div class="box">
-                <div class="stars">
-                    <i class="bx bx-star"></i>
-                    <i class="bx bx-star"></i>
-                    <i class="bx bx-star"></i>
-                    <i class="bx bx-star"></i>
-                    <i class="bx bxs-star-half"></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eaque, consectetur quas quidem neque in.</p>
-                <h2>Yasin Arafat</h2>
-                <img src="img/rev3.jpg" alt="">
-            </div>
+        <div class="box">
+          <div class="stars">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            eaque, consectetur quas quidem neque in.
+          </p>
+          <h2>Yasin Arafat</h2>
+          <img src="img/rev2.jpg" alt="" />
         </div>
+        <div class="box">
+          <div class="stars">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            eaque, consectetur quas quidem neque in.
+          </p>
+          <h2>Yasin Arafat</h2>
+          <img src="img/rev3.jpg" alt="" />
+        </div>
+      </div>
     </section>
-
-
-
-
-
-
-
+    <section class="footer">
+      <div class="footer-box">
+        <h2>Cafeteria</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+          cupiditate?
+        </p>
+        <div class="social">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h3>Suporte</h3>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Ajuda & Suporte</a></li>
+        <li><a href="#">Política de Devolução</a></li>
+        <li><a href="#">Termos de Uso</a></li>
+      </div>
+      <div class="footer-box">
+        <h3>Exibir Guias</h3>
+        <li><a href="#">Recursos</a></li>
+        <li><a href="#">Carreiras</a></li>
+        <li><a href="#">Postagem no Blog</a></li>
+        <li><a href="#">Nossas Filiais</a></li>
+      </div>
+      <div class="footer-box">
+        <h3>Contato</h3>
+        <div class="contact">
+          <span><i class="bx bxs-map"></i>São Paulo, Brazil</span>
+          <span><i class="bx bxs-phone"></i>+55 11 99999 9999</span>
+          <span><i class="bx bxs-envelope"></i>coffee@shop.com</span>
+        </div>
+      </div>
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>&#169; LuizPorto Todos os direitos reservados</p>
+    </div>
 
     <!-- --- LINK JS --- -->
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
